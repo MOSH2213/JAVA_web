@@ -83,7 +83,7 @@ a:hover {
   padding: 10px 20px !important;
 }
 .btn.btn-primary {
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 300;
   letter-spacing: 0.2em;
 }
@@ -143,7 +143,7 @@ a:hover {
   position: absolute;
   width: 40px;
   height: 2px;
-  background: #7971ea;
+  background: red;
 }
 
 .border-top {
@@ -169,7 +169,7 @@ a:hover {
 
 /* Navbar */
 .site-navbar {
-  background: #fff;
+  background: #222222;
   margin-bottom: 0px;
   z-index: 1999;
   position: relative;
@@ -179,6 +179,7 @@ a:hover {
 }
 .site-navbar .site-navbar-top {
   border-bottom: 1px solid #f3f3f4;
+  background-color: rgb(48, 48, 48);
   padding-top: 20px;
   padding-bottom: 20px;
   margin-bottom: 0px;
@@ -195,24 +196,25 @@ a:hover {
 }
 .site-navbar .site-search-icon a:hover {
   text-decoration: none;
+  color: red;
 }
 .site-navbar .site-logo a {
   text-transform: uppercase;
-  color: #25262a;
+  color: white;
   letter-spacing: 0.2em;
   font-size: 20px;
   padding-left: 10px;
   padding-right: 10px;
-  border: 2px solid #25262a;
+  /* border: 2px solid #25262a; */
 }
 .site-navbar .site-logo a:hover {
   text-decoration: none;
 }
 .site-navbar a {
-  color: #868995;
+  color: white;
 }
 .site-navbar a:hover {
-  color: #3d3f45;
+  color: red;
 }
 .site-navbar .icon {
   font-size: 20px;
@@ -229,6 +231,10 @@ a:hover {
 .site-navbar .site-top-icons ul li a {
   margin-right: 10px;
 }
+/* .icon-heart-o:hover,.icon-person:hover {
+  background-color: red;
+  border-radius: 3px;
+} */
 .site-navbar .site-top-icons ul li a.site-cart {
   display: block;
   position: relative;
@@ -246,7 +252,7 @@ a:hover {
   border-radius: 50%;
   display: block;
   text-align: center;
-  background: #7971ea;
+  background: red;
   color: #fff;
   -webkit-transition: 0.2s all ease-in-out;
   -o-transition: 0.2s all ease-in-out;
@@ -260,6 +266,7 @@ a:hover {
 .site-navbar .site-top-icons ul li:last-child a {
   padding-right: 0;
 }
+
 .site-navbar .site-top-icons ul .site-menu-toggle {
   font-size: 25px;
   position: relative;
@@ -273,7 +280,7 @@ a:hover {
   margin-bottom: 0;
 }
 .site-navbar .site-navigation .site-menu .active > a {
-  color: #7971ea;
+  color: red;
 }
 .site-navbar .site-navigation .site-menu a {
   text-decoration: none !important;
@@ -288,12 +295,12 @@ a:hover {
   padding: 10px 10px;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: #25262a;
+  color: white;
   font-size: 15px;
   text-decoration: none !important;
 }
 .site-navbar .site-navigation .site-menu > li > a:hover {
-  color: #7971ea;
+  color: red;
 }
 .site-navbar .site-navigation .site-menu .has-children {
   position: relative;
@@ -319,7 +326,7 @@ a:hover {
   top: 100%;
   position: absolute;
   text-align: left;
-  border-top: 2px solid #7971ea;
+  border-top: 2px solid red;
   -webkit-box-shadow: 0 0px 4px 0px rgba(0, 0, 0, 0.05);
   box-shadow: 0 0px 4px 0px rgba(0, 0, 0, 0.05);
   border-left: 1px solid #edf0f5;
@@ -332,6 +339,8 @@ a:hover {
   -webkit-transition: 0.2s 0s;
   -o-transition: 0.2s 0s;
   transition: 0.2s 0s;
+  z-index: 999999;
+
 }
 .site-navbar .site-navigation .site-menu .has-children .dropdown a {
   font-size: 16px;
@@ -340,9 +349,10 @@ a:hover {
   -webkit-transition: 0s all;
   -o-transition: 0s all;
   transition: 0s all;
+  color: black;
 }
 .site-navbar .site-navigation .site-menu .has-children .dropdown .active > a {
-  color: #7971ea !important;
+  color: red !important;
 }
 .site-navbar .site-navigation .site-menu .has-children .dropdown > li {
   list-style: none;
@@ -421,7 +431,7 @@ a:hover {
 .site-navbar .site-navigation .site-menu .has-children:hover > a,
 .site-navbar .site-navigation .site-menu .has-children:focus > a,
 .site-navbar .site-navigation .site-menu .has-children:active > a {
-  color: #7971ea;
+  color: red;
 }
 .site-navbar .site-navigation .site-menu .has-children:hover,
 .site-navbar .site-navigation .site-menu .has-children:focus,
@@ -790,7 +800,7 @@ a:hover {
   background: #fff;
 }
 .block-4 .block-4-text h3 {
-  font-size: 20px;
+  /* font-size: 20px; */
   margin-bottom: 0;
 }
 .block-4 .block-4-text h3 a {
@@ -910,21 +920,22 @@ a:hover {
 }
 .site-block-top-search .icon {
   position: absolute;
-  left: 0;
+  left: 5%;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 .site-block-top-search input {
-  padding-left: 40px;
+  padding-left: 50px;
   -webkit-transition: 0.3s all ease-in-out;
   -o-transition: 0.3s all ease-in-out;
   transition: 0.3s all ease-in-out;
+  border-radius: 50px;
 }
 .site-block-top-search input:focus,
 .site-block-top-search input:active {
-  padding-left: 25px;
+  padding-left: 40px;
 }
 
 .site-block-27 ul,
@@ -976,7 +987,13 @@ a:hover {
   width: 14px;
   height: 14px;
 }
-
+.item{
+  transition: 0.3s all ease-in-out;
+}
+.item:hover{
+    transform: scale(1.05);
+    transition: 0.3s all ease-in-out;
+}
 .block-16 figure {
   position: relative;
 }
