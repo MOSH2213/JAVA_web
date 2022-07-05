@@ -2107,7 +2107,7 @@ pre code {
 .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: #80bdff;
+  border-color: red;
   outline: 0;
   -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
@@ -2764,8 +2764,8 @@ fieldset:disabled a.btn {
 }
 .btn-secondary:hover {
   color: #fff;
-  background-color: #5a6268;
-  border-color: #545b62;
+  background-color: red;
+  border-color: red;
 }
 .btn-secondary:focus,
 .btn-secondary.focus {
@@ -7094,7 +7094,7 @@ button.bg-dark:focus {
 }
 
 .border-primary {
-  border-color: #007bff !important;
+  border-color: red !important;
 }
 
 .border-secondary {
@@ -10638,7 +10638,7 @@ a.text-dark:focus {
 body {
   font-family: "Poppins", Arial, sans-serif;
   font-size: 20px;
-  line-height: 1.8;
+  /* line-height: 1.8; */
   font-weight: normal;
 }
 
@@ -10736,7 +10736,7 @@ footer {
 
 .footer-10 {
   background: #222222;
-  padding: 0 0 4em 0;
+  padding:1em;
 }
 .footer-10 .border-top,
 .footer-10 .border-bottom {
@@ -10754,10 +10754,10 @@ footer {
   color: #1089ff;
 }
 .footer-10 .con.con-1 {
-  background: #1e1e1e;
+  background: #252525;
 }
 .footer-10 .con.con-2 {
-  background: #1c1c1c;
+  background: #252525;
 }
 .footer-10 .con.con-3 {
   background: #252525;

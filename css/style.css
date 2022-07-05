@@ -74,9 +74,9 @@ a:hover {
   box-shadow: none !important;
 }
 .btn.btn-secondary {
-  background-color: #e6e7e9;
-  border-color: #e6e7e9;
-  color: #000;
+  background-color: #DE4E4E;
+  border-color: #DE4E4E;
+  color: white;
 }
 .btn.btn-sm {
   font-size: 14px !important;
@@ -98,7 +98,7 @@ a:hover {
 }
 .form-control:active,
 .form-control:focus {
-  border-color: #7971ea;
+  border-color: red;
 }
 .form-control:hover,
 .form-control:active,
@@ -126,12 +126,12 @@ a:hover {
 }
 .site-section-heading:before {
   content: "";
-  left: 0%;
+  left: 43%;
   top: 0;
   position: absolute;
-  width: 40px;
+  width: 80px;
   height: 2px;
-  background: #7971ea;
+  background: red;
 }
 .site-section-heading.text-center:before {
   content: "";
@@ -178,7 +178,7 @@ a:hover {
   background: transparent;
 }
 .site-navbar .site-navbar-top {
-  border-bottom: 1px solid #f3f3f4;
+  /* border-bottom: 1px solid #f3f3f4; */
   background-color: rgb(48, 48, 48);
   padding-top: 20px;
   padding-bottom: 20px;
@@ -186,8 +186,8 @@ a:hover {
 }
 @media (min-width: 768px) {
   .site-navbar .site-navbar-top {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
 .site-navbar .site-search-icon a span {
@@ -960,7 +960,7 @@ a:hover {
 }
 .site-block-27 ul li.active a,
 .site-block-27 ul li.active span {
-  background: #7971ea;
+  background: red;
   color: #fff;
   border: 1px solid transparent;
 }
@@ -973,14 +973,14 @@ a:hover {
   height: 16px;
   border-radius: 50%;
   border: none !important;
-  background: #7971ea;
+  background: red;
 }
 #slider-range .ui-slider-handle:focus,
 #slider-range .ui-slider-handle:active {
   outline: none;
 }
 #slider-range .ui-slider-range {
-  background-color: #7971ea;
+  background-color: red;
 }
 
 .color-item .color {
@@ -1042,4 +1042,14 @@ a:hover {
   width: 120px;
   border-radius: 50%;
   margin-bottom: 20px;
+}
+.about-cardy{
+  /* background-color: #000; */
+  padding: 5%;
+  /* border: 1px black solid; */
+  transition: 0.5s all ease-in-out;
+  box-shadow: 0 0 30px -10px rgb(0 0 0 / 15%);
+}
+.about-cardy:hover{
+  transform: scale(1.02);
 }
