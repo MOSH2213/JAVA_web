@@ -244,17 +244,22 @@
 /*** Navbar ***/
 .sidebar .navbar .navbar-nav .nav-link {
   padding: 7px 20px;
-  color: var(--light);
+  /* color: var(--light); */
+  color: white;
   font-weight: 500;
-  border-left: 3px solid var(--secondary);
-  border-radius: 0 30px 30px 0;
+  /* border-left: 3px solid var(--secondary); */
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-bottom: 5px;
   outline: none;
 }
 
 .sidebar .navbar .navbar-nav .nav-link:hover,
 .sidebar .navbar .navbar-nav .nav-link.active {
-  color: var(--primary);
-  background: var(--dark);
+  /* color: var(--primary); */
+  color: black;
+  /* background: var(--dark); */
+  background-color: white;
   border-color: var(--primary);
 }
 
@@ -308,7 +313,7 @@
 
 .content .navbar .navbar-nav .nav-link:hover,
 .content .navbar .navbar-nav .nav-link.active {
-  color: var(--primary);
+  color:  #191919 ;
 }
 
 .content .navbar .sidebar-toggler,
