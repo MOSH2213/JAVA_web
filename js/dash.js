@@ -86,6 +86,19 @@
     },
     options: {
       responsive: true,
+      scales: {
+        y: {
+          grid: {
+          
+            display:false,
+          }
+        },
+        x: {
+          grid: {
+            display:false,
+          }
+        }
+      }
     },
   });
 
