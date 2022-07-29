@@ -376,11 +376,11 @@
 
 .bootstrap-datetimepicker-widget table td.active,
 .bootstrap-datetimepicker-widget table td.active:hover {
-  background: var(--primary);
+  background: #696970;
 }
 
 .bootstrap-datetimepicker-widget table td.today::before {
-  border-bottom-color: var(--primary);
+  border-bottom-color: black;
 }
 
 /*** Testimonial ***/
@@ -561,9 +561,9 @@ body {
   }
 }
 @media(max-width:992px){
-  .fa-user-edit{
+  /* .fa-user-edit{
     
-  }
+  } */
   
   .fa-user-edit::before{
     color: white;
