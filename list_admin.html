@@ -47,11 +47,11 @@
     <!-- Spinner End -->
 
     <!-- Sidebar Start -->
-    <div class="sidebar pe-4 pb-3">
-      <nav class="navbar bg-secondary navbar-dark">
+    <div class="sidebar pe-4 pb-3 bg-bk shadow navclz2">
+      <nav class="navbar navbar-dark">
         <a href="dashdex.html" class="navbar-brand mx-4 mb-3">
-          <h3 class="text-primary">
-            <i class="fa fa-user-edit me-2"></i>Sl SHOPPER
+          <h3 class="text-white">
+            <i class="fa fa-user-edit me-2"></i>SHOPPER
           </h3>
         </a>
         <div class="d-flex align-items-center ms-4 mb-4">
@@ -61,14 +61,15 @@
             </div>
           </div>
           <div class="ms-3">
-            <h6 class="mb-0">Jhon Doe</h6>
+            <h6 class="mb-0 text-white">Jhon Doe</h6>
             <span>Admin</span>
           </div>
         </div>
         <div class="navbar-nav w-100">
-          <a href="dashdex.html" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
-          <a href="profile.html" class="nav-item nav-link"><i class="fa fa-user me-2"></i>Profile</a>
-          <a href="index.html" class="nav-item nav-link"><i class="fa fa-home me-2"></i>Home</a>
+          <a href="dashdex.html" class="nav-item nav-link active shadow text-dark"><i
+              class="fa fa-tachometer-alt me-2 text-white"></i>Dashboard</a>
+          <a href="profile.html" class="nav-item nav-link"><i class="fa fa-user me-2 text-white"></i>Profile</a>
+          <a href="index.html" class="nav-item nav-link"><i class="fa fa-home me-2 text-white"></i>Home</a>
         </div>
       </nav>
     </div>
@@ -77,15 +78,16 @@
     <!-- Content Start -->
     <div class="content">
       <!-- Navbar Start -->
-      <nav class="navbar navbar-expand bg-secondary navbar-dark sticky-top px-4 py-0">
+      <nav class="navbar navbar-expand bg-white navbar-dark sticky-top px-4 py-0 m-xxl-3 m-lg-3 navaclz shadow">
         <a href="dashdex.html" class="navbar-brand d-flex d-lg-none me-4">
           <h2 class="text-primary mb-0"><i class="fa fa-user-edit"></i></h2>
         </a>
-        <a href="#" class="sidebar-toggler flex-shrink-0">
-          <i class="fa fa-bars"></i>
+        <a href="#" class="sidebar-toggler flex-shrink-0 bg-bk rounded shadow">
+          <i class="fa fa-bars text-white"></i>
         </a>
         <form class="d-none d-md-flex ms-4">
-          <input class="form-control bg-dark border-0" type="search" placeholder="Search" />
+          <i class="fa fa-search"></i>
+          <input class="form-control bg-white border-0" type="search" placeholder="Search" />
         </form>
         <div class="navbar-nav align-items-center ms-auto">
           <div class="nav-item dropdown">
@@ -93,13 +95,13 @@
               <i class="fa fa-envelope me-lg-2"></i>
               <span class="d-none d-lg-inline-flex">Message</span>
             </a>
-            <div class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0">
+            <div class="dropdown-menu dropdown-menu-end bg-bk text-white-50 border-0 rounded rounded-bottom m-2">
               <a href="#" class="dropdown-item">
                 <div class="d-flex align-items-center">
                   <img class="rounded-circle" src="images/user.jpg" alt="" style="width: 40px; height: 40px" />
                   <div class="ms-2">
-                    <h6 class="fw-normal mb-0">Jhon send you a message</h6>
-                    <small>15 minutes ago</small>
+                    <h6 class="fw-normal mb-0 text-white">Jhon send you a message</h6>
+                    <small class="text-white-50">15 minutes ago</small>
                   </div>
                 </div>
               </a>
@@ -108,8 +110,8 @@
                 <div class="d-flex align-items-center">
                   <img class="rounded-circle" src="images/user.jpg" alt="" style="width: 40px; height: 40px" />
                   <div class="ms-2">
-                    <h6 class="fw-normal mb-0">Jhon send you a message</h6>
-                    <small>15 minutes ago</small>
+                    <h6 class="fw-normal mb-0 text-white">Jhon send you a message</h6>
+                    <small class="text-white-50">15 minutes ago</small>
                   </div>
                 </div>
               </a>
@@ -118,54 +120,54 @@
                 <div class="d-flex align-items-center">
                   <img class="rounded-circle" src="images/user.jpg" alt="" style="width: 40px; height: 40px" />
                   <div class="ms-2">
-                    <h6 class="fw-normal mb-0">Jhon send you a message</h6>
-                    <small>15 minutes ago</small>
+                    <h6 class="fw-normal mb-0 text-white">Jhon send you a message</h6>
+                    <small class="text-white-50">15 minutes ago</small>
                   </div>
                 </div>
               </a>
               <hr class="dropdown-divider" />
-              <a href="messages.html" class="dropdown-item text-center">See all message</a>
+              <a href="messages.html" class="dropdown-item text-center text-white-50">See all message</a>
             </div>
           </div>
-          <div class="clocky">
+          <div class="clocky bg-bk rounded shadow">
             <div class="display">
             </div>
-        </div>
-        <script>
+          </div>
+          <script>
             setInterval(function () {
-                const clocky = document.querySelector(".display");
-                let time = new Date();
-                let sec = time.getSeconds();
-                let min = time.getMinutes();
-                let hr = time.getHours();
-                let day = 'AM';
-                if (hr > 12) {
-                    day = 'PM';
-                    hr = hr - 12;
-                }
-                if (hr == 0) {
-                    hr = 12;
-                }
-                if (sec < 10) {
-                    sec = '0' + sec;
-                }
-                if (min < 10) {
-                    min = '0' + min;
-                }
-                if (hr < 10) {
-                    hr = '0' + hr;
-                }
-                clocky.textContent = hr + ':' + min + ':' + sec + " " + day;
+              const clocky = document.querySelector(".display");
+              let time = new Date();
+              let sec = time.getSeconds();
+              let min = time.getMinutes();
+              let hr = time.getHours();
+              let day = 'AM';
+              if (hr > 12) {
+                day = 'PM';
+                hr = hr - 12;
+              }
+              if (hr == 0) {
+                hr = 12;
+              }
+              if (sec < 10) {
+                sec = '0' + sec;
+              }
+              if (min < 10) {
+                min = '0' + min;
+              }
+              if (hr < 10) {
+                hr = '0' + hr;
+              }
+              clocky.textContent = hr + ':' + min + ':' + sec + " " + day;
             });
-        </script>
+          </script>
           <div class="nav-item dropdown">
             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
               <img class="rounded-circle me-lg-2" src="images/user.jpg" alt="" style="width: 40px; height: 40px" />
               <span class="d-none d-lg-inline-flex">John Doe</span>
             </a>
-            <div class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0">
-              <a href="profile.html" class="dropdown-item">My Profile</a>
-              <a href="#" class="dropdown-item">Log Out</a>
+            <div class="dropdown-menu dropdown-menu-end bg-bk border-0 rounded rounded-bottom m-2">
+              <a href="profile.html" class="dropdown-item text-white">My Profile</a>
+              <a href="#" class="dropdown-item text-white">Log Out</a>
             </div>
           </div>
         </div>
@@ -175,15 +177,15 @@
       <!-- Blank Start -->
       <div class="container-fluid pt-4 px-4">
         <div class="col-12">
-          <div class="bg-secondary rounded h-100 p-4">
+          <div class="bg-white rounded h-100 p-4 shadow">
             <div class="d-flex align-items-center justify-content-between mb-2">
               <h6 class="mb-4">List of Admin</h6>
-              <a class="btn btn-sm btn-success" href="#">Add Admin</a>
-          </div>
+              <a class="btn btn-sm  text-white bg-bk shadow" href="#">Add Admin</a>
+            </div>
             <div class="table-responsive">
               <table class="table">
                 <thead>
-                  <tr class="text-white">
+                  <tr class="text-dark">
                     <th scope="col">ID</th>
                     <th scope="col">First Name</th>
                     <th scope="col">Last Name</th>
@@ -245,26 +247,26 @@
 
       <!-- Footer Start -->
       <div class="container-fluid pt-4 px-4">
-        <div class="bg-secondary rounded-top p-4">
-            <div class="row">
-                <div class="col-12 col-sm-6 text-center text-sm-start">
-                    &copy; <a href="#">Your Site Name</a>, All Right Reserved.
-                </div>
-                <div class="col-12 col-sm-6 text-center text-sm-end">
-                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                    Designed By <a href="#">SL SHOPPPER</a>
-                    <br />Distributed By:
-                    <a href="#" target="_blank">SL SHOPPPER</a>
-                </div>
+        <div class="bg-white rounded p-4 shadow">
+          <div class="row">
+            <div class="col-12 col-sm-6 text-center text-sm-start">
+              &copy; <a href="#">Your Site Name</a>, All Right Reserved.
             </div>
+            <div class="col-12 col-sm-6 text-center text-sm-end">
+              <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+              Designed By <a href="#">SL SHOPPPER</a>
+              <br />Distributed By:
+              <a href="#" target="_blank">SL SHOPPPER</a>
+            </div>
+          </div>
         </div>
-    </div>
-    <!-- Footer End -->
+      </div>
+      <!-- Footer End -->
     </div>
     <!-- Content End -->
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-lg bg-bk btn-lg-square back-to-top"><i class="bi bi-arrow-up text-white"></i></a>
   </div>
 
   <!-- JavaScript Libraries -->
