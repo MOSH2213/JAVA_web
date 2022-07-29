@@ -548,6 +548,7 @@ body {
   .navclz3{
     /* margin-top: 80px; */
   }
+
 }
 /* @media (min-width: 1200px){
   .navclz{
@@ -557,5 +558,17 @@ body {
 @media (max-width: 1200px){
   .fa-search::before{
     visibility: hidden;
+  }
+}
+@media(max-width:992px){
+  .fa-user-edit{
+    
+  }
+  
+  .fa-user-edit::before{
+    color: white;
+    background: linear-gradient(195deg, #42424a 0%, #191919 100%);
+    padding: 5px;
+    border-radius: 5px;
   }
 }
