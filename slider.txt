@@ -1,0 +1,25 @@
+<!-- this slider can be used multiple times on the same page -->
+    <!-- don't change class names because slider will not work -->
+    <div class="slider">
+      <div class="imgs">
+        <!-- you can add divs with class img here and they will be 
+		   automatically added to slider -->
+        <!-- style="left: 0;" in case JS is disabled -->
+        <div class="img" style="left: 0">
+          <span>IMAGE_1</span>
+        </div>
+        <div class="img">
+          <span>IMAGE_2</span>  
+        </div>
+        <div class="img">
+          <span>IMAGE_3</span>
+        </div>
+        <div class="img">
+          <span>IMAGE_4</span>
+        </div>
+      </div>
+      <div class="dots"></div>
+    </div>
+<div class="null">
+      <!-- the null defined class inside the slider.css file -->
+    </div>

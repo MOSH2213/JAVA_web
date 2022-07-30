@@ -10735,7 +10735,7 @@ footer {
 }
 
 .footer-10 {
-  background: #222222;
+  background: black;
   padding:1em;
 }
 .footer-10 .border-top,
@@ -10789,10 +10789,10 @@ footer {
   border-radius: 0;
 }
 .footer-10 .subscribe-form .form-group input {
-  background: white !important;
-  border: none !important;
-  outline: none !important;
-  color: rgba(0, 0, 0, 0.3) !important;
+  background: white ;
+  border: none ;
+  outline: none ;
+  color: rgba(0, 0, 0, 0.3) ;
   font-size: 16px;
   border-radius: 0;
 }
@@ -10818,12 +10818,13 @@ footer {
   box-shadow: none;
 }
 .footer-10 .subscribe-form .form-group .submit {
-  color: #fff !important;
+  color: #fff ;
   display: block;
   width: 130px;
   height: 52px;
-  font-size: 16px;
-  background: red !important;
+  font-size: 20px;
+  font-weight: bold;
+  background: red ;
   border: none;
   border-radius: 0;
 }
@@ -10843,7 +10844,16 @@ footer {
   color: #fff;
 }
 .footer-10 .ftco-footer-social li a:hover {
-  background: red;
-  color: #fff;
+  background: white;
+  color: black;
   transform: scale(1.1);
+}
+
+/* custom made colors */
+.bg-bk{
+  background-image: linear-gradient(195deg, #42424a 0%, #191919 100%);
+
+}
+.bg-gry{
+  background-color: #D0D0D0 !important;
 }
