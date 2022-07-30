@@ -1161,8 +1161,48 @@ a:hover {
   height: 80vh;
 
 }
+
 @media (max-width: 767.98px) {
-  .hmimg{
+  .hmimg {
     height: 50vh;
+  }
+}
+
+.grab {
+  font-family: "Poppins", Arial, sans-serif;
+  /* font-family: "AvenirLTStd-Black"; */
+  font-weight: 800;
+  position: relative;
+  top: 120px;
+  left: 20px;
+  font-size: 50px;
+
+}
+
+.btnss{
+  display: inline-block;
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 600;
+  line-height: 1.5;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  background:  linear-gradient(195deg, #42424a 0%, #191919 100%);
+  border: 1px solid black;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin-right: 9px;
+    position: relative;
+    top: 120px;
+    left: 22px;
+}
+@media (max-width: 767.98px) {
+  .grab{
+    font-size: 30px;
   }
 }
